@@ -1,0 +1,23 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1671
+{\fonttbl\f0\froman\fcharset0 Times-Roman;\f1\froman\fcharset0 Times-Italic;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red0\green0\blue233;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c0\c0\c93333;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\sl280\partightenfactor0
+
+\f0\fs24 \cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Implement a search algorithm that can find a route between any two cities. Your program will be called find_route, and will take exactly command line arguments as follows:\
+\
+\pard\pardeftab720\sl280\partightenfactor0
+
+\f1\i \cf2 find_route input_filename origin_city destination_city
+\f0\i0 \'a0
+\f1\i heuristic_filename
+\f0\i0 \
+\
+An example command line is:\
+\
+find_route input1.txt Munich Berlin\
+\
+Argument input_filename is the name of a text file such as\'a0{\field{\*\fldinst{HYPERLINK "https://omega.uta.edu/~gopikrishnav/classes/2018/fall/4308_5360/assmts/assmt1_files/input1.txt"}}{\fldrslt \cf3 \ul \ulc3 \strokec3 input1.txt}}, that describes road connections between cities in some part of the world. For example, the road system described by file input1.txt can be visualized in Figure 1 shown below. You can assume that the input file is formatted in the same way as\'a0{\field{\*\fldinst{HYPERLINK "https://omega.uta.edu/~gopikrishnav/classes/2018/fall/4308_5360/assmts/assmt1_files/input1.txt"}}{\fldrslt \cf3 \ul \ulc3 \strokec3 input1.txt}}: each line contains three items. The last line contains the items "END OF INPUT", and that is how the program can detect that it has reached the end of the file. The other lines of the file contain, in this order, a source city, a destination city, and the length in kilometers of the road connecting directly those two cities. Each city name will be a single word (for example, we will use New_York instead of New York), consisting of upper and lowercase letters and possibly underscores.}
